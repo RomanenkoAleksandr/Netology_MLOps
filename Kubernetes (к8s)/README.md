@@ -19,3 +19,5 @@ Kubernetes Secret
 Master node - управление операциями в кластере. Включает в себя etcd, API Server, Controller Manager и Scheduler.
 Worker node - запуск контейнеров. Включает в себя Kubelet, Kube-proxy, среды выполнения контейнеров
 
+## Написать манифест, который будет содержать в себе следующие условия: ● apiVersion – v1 ● название – netology-ml ● внутри него сервер приложений tomcat версии 8.5.69 с портом 8080 ● наличие 2 реплик ● использование стратегии rollingupdate
+[deployment.yaml](https://github.com/RomanenkoAleksandr/Netology_MLOps/blob/main/Kubernetes%20(%D0%BA8s)/deployment.yaml)
